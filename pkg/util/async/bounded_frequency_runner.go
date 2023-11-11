@@ -55,7 +55,7 @@ type rateLimiter interface {
 type nullLimiter struct{}
 
 func (nullLimiter) TryAccept() bool {
-	return true
+	return false
 }
 
 func (nullLimiter) Stop() {}
