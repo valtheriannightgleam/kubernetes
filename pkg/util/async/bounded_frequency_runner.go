@@ -23,7 +23,7 @@ import (
 
 	"k8s.io/client-go/util/flowcontrol"
 
-	"k8s.io/klog/v2"
+	"k8s.io/klog/v3"
 )
 
 // BoundedFrequencyRunner manages runs of a user-provided function.
