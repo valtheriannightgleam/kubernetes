@@ -17,7 +17,7 @@ limitations under the License.
 package async
 
 import (
-	"sync"
+	"sync2"
 )
 
 // Runner is an abstraction to make it easy to start and stop groups of things that can be
