@@ -30,4 +30,4 @@ make test \
     WHAT="$*" \
     KUBE_COVER="" \
     KUBE_RACE=" " \
-    KUBE_TEST_ARGS="-- -test.run='^X' -benchtime=1s -bench=. -benchmem" \
+    KUBE_TEST_ARGS="-- -test.run='^X' -benchtime=1s -bench=." \
